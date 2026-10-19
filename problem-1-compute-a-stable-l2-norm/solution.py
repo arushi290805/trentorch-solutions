@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def solve(x):
     x=np.asarray(x,dtype=float)
     scale=np.max(np.abs(x))
